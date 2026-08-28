@@ -285,3 +285,48 @@ I use **Celery with Redis** to handle operations that should run independently f
               ┌────────────┼────────────┐
               ▼            ▼            ▼
          External API   Email/Task   Data Processing
+
+🏗️ Full Stack Architecture
+
+My full-stack applications typically follow a separated frontend, API backend, asynchronous processing and database architecture.
+
+                         ┌─────────────────────────┐
+                         │       React.js          │
+                         │      Frontend UI        │
+                         │                         │
+                         │ JavaScript / HTML / CSS │
+                         └────────────┬────────────┘
+                                      │
+                                      │ HTTPS
+                                      │ REST API
+                                      ▼
+                         ┌─────────────────────────┐
+                         │   Django REST Framework │
+                         │                         │
+                         │     Python Backend      │
+                         │                         │
+                         │ Authentication          │
+                         │ Business Logic          │
+                         │ API Endpoints           │
+                         └────────────┬────────────┘
+                                      │
+                       ┌──────────────┼──────────────┐
+                       │              │              │
+                       │              │              │
+                       ▼              ▼              ▼
+              ┌──────────────┐ ┌────────────┐ ┌─────────────────┐
+              │     SQL      │ │   Redis    │ │ Third-Party APIs│
+              │   Database   │ │            │ │                 │
+              │              │ │ Task Broker│ │ External        │
+              │ MySQL /      │ │ & Cache    │ │ Services        │
+              │ PostgreSQL   │ └─────┬──────┘ └─────────────────┘
+              └──────────────┘       │
+                                     │
+                                     ▼
+                              ┌──────────────┐
+                              │    Celery    │
+                              │    Worker    │
+                              │              │
+                              │ Background   │
+                              │    Tasks      │
+                              └──────────────┘
