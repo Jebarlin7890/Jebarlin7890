@@ -68,7 +68,8 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable, and 
 ### ⚙️ Backend
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="50" height="50" alt="Django" />
+  <img src="https://skillicons.dev/icons?i=django" width="55" height="55" alt="Django"
+  />
 </p>
 
 <p>
