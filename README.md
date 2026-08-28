@@ -35,18 +35,19 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Python Full Stack Developer** focused on building modern, scalable and API-driven web applications.
+I'm a **Python Full Stack Developer** focused on developing modern, scalable and API-driven web applications.
 
-- 🐍 Developing backend systems using **Python, Django & Django REST Framework**
-- ⚛️ Building frontend applications using **React.js & JavaScript**
-- 🔗 Designing and integrating **REST APIs**
-- ⚡ Implementing background and asynchronous tasks using **Celery**
-- 🚀 Using **Redis** for caching, message brokering and task processing
+- 🐍 Building backend applications with **Python, Django and Django REST Framework**
+- ⚛️ Developing interactive frontend applications with **React.js and JavaScript**
+- 🔗 Designing and integrating **REST APIs** for frontend and backend communication
+- ⚡ Implementing asynchronous and background processing with **Celery**
+- 🔴 Working with **Redis** as a message broker and caching layer
 - 🗄️ Working with **SQL, MySQL and PostgreSQL**
-- ☁️ Working with **Microsoft Azure** and cloud-based deployments
+- ☁️ Deploying applications and backend services using **Microsoft Azure**
+- 🌐 Working with domains, subdomains and production environments
 - 🔄 Integrating third-party APIs and business workflows
 - 🧪 Testing and debugging APIs using **Postman**
-- 🛠️ Using **Git & GitHub** for version control and development workflows
+- 🛠️ Managing source code and development workflows with **Git and GitHub**
 - 🎯 Focused on clean architecture, performance and maintainable code
 
 ---
@@ -111,38 +112,15 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable and A
 
 <p>
   <strong>
-    Django • Django REST Framework • REST APIs • Redis • Celery
+    Django • Django REST Framework • Redis • Celery • REST APIs
   </strong>
 </p>
 
 <p>
   <strong>
-    Authentication • Authorization • API Integration • Background Tasks • Caching
+    Authentication • Authorization • API Integration • Background Processing
   </strong>
 </p>
-
----
-
-## ⚡ Asynchronous Processing
-
-<p align="left">
-  <img
-    src="https://skillicons.dev/icons?i=redis"
-    width="55"
-    height="55"
-    alt="Redis"
-  />
-</p>
-
-<p>
-  <strong>Celery • Redis • Background Jobs • Task Queues • Scheduled Tasks</strong>
-</p>
-
-- ⚡ Background task processing with **Celery**
-- 🚀 Redis-based task/message handling
-- ⏱️ Scheduled and asynchronous jobs
-- 📦 Processing long-running operations outside the request cycle
-- 🔄 Reliable background workflow execution
 
 ---
 
@@ -249,7 +227,7 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable and A
 |---|---|
 | 🐍 Backend Development | Python, Django, Django REST Framework |
 | 🔗 API Development | REST APIs, Authentication, API Integration |
-| ⚡ Async Processing | Celery, Redis, Background Tasks |
+| ⚡ Background Processing | Celery, Redis |
 | ⚛️ Frontend Development | React.js, JavaScript, HTML5, CSS3 |
 | 🗄️ Database | SQL, MySQL, PostgreSQL, Django ORM |
 | ☁️ Cloud & Deployment | Microsoft Azure, Linux, Docker |
@@ -259,26 +237,25 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable and A
 
 # 🔌 API & Backend Development
 
-I build **API-driven backend systems** using Django and Django REST Framework, with a focus on scalable architecture, reliable API communication and maintainable business logic.
+I develop **API-driven backend systems** using Django and Django REST Framework, with a focus on clean architecture, reliable communication and maintainable business logic.
 
 ### Backend Capabilities
 
-- 🔐 Authentication & authorization
-- 🔗 REST API development
+- 🔐 Authentication and authorization
+- 🔗 RESTful API development
 - 📡 Frontend ↔ Backend communication
 - 📦 Third-party API integration
-- 🧪 API testing with Postman
-- 🗄️ Database-driven applications
-- ⚙️ Business workflow implementation
+- 🧪 API testing and debugging
 - 📄 Serialization and validation
-- 🔄 API-based service integration
+- 🗄️ Database-driven business logic
+- ⚙️ Workflow and service implementation
 - 🚀 Production API deployment
 
 ---
 
-# ⚡ Background Processing
+# ⚡ Asynchronous Task Processing
 
-For operations that should not block the main web request, I work with **Celery and Redis**.
+I use **Celery with Redis** to handle operations that should run independently from the main web request.
 
 ```text
                     Django Application
@@ -287,18 +264,24 @@ For operations that should not block the main web request, I work with **Celery 
                            ▼
                     ┌──────────────┐
                     │    Celery    │
-                    │ Task Manager  │
-                    └───────┬──────┘
-                            │
-                            ▼
+                    │     Tasks    │
+                    └──────┬───────┘
+                           │
+                           │ Task Queue
+                           ▼
                     ┌──────────────┐
                     │    Redis     │
                     │ Message Broker│
-                    └───────┬──────┘
-                            │
-                            ▼
+                    └──────┬───────┘
+                           │
+                           ▼
                     ┌──────────────┐
                     │ Celery Worker│
+                    │              │
                     │ Background   │
-                    │ Task Process  │
-                    └──────────────┘
+                    │ Processing   │
+                    └──────┬───────┘
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+         External API   Email/Task   Data Processing
