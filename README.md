@@ -1,55 +1,96 @@
-<h1 data-importer="text" align="left">Hey 👋 I'm Jebarlin</h1>
+<h1 align="center">Hi 👋, I'm Jebarlin</h1>
 
-###
+<h3 align="center">
+  Python Full Stack Developer | Django | REST APIs | SQL | Azure | React
+</h3>
 
-<p data-importer="text" align="left">Python Full Stack Developer | Django | REST APIs | SQL | Azure | React</p>
+<p align="center">
+  <a href="https://github.com/Jebarlin7890">
+    <img src="https://komarev.com/ghpvc/?username=Jebarlin7890&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  </a>
+</p>
 
-###
+---
 
-<h4 data-importer="text" align="left">✨ Building modern full-stack web applications<br><br>🚀 Working with React.js, Django & Django REST Framework<br><br>🔗 Developing API-driven frontend and backend architectures<br><br>☁️ Working with production deployments and server configuration<br><br>📦 Integrating third-party APIs and business workflows<br><br>🎯 Continuously learning and improving my development skills</h4>
+## 👨‍💻 About Me
 
-###
+I'm a **Python Full Stack Developer** focused on building modern, scalable, and API-driven web applications.
 
-<p data-importer="text" align="left">Frontend<br>React.js • JavaScript • HTML5 • CSS3<br><br>Backend<br>Python • Django • Django REST Framework<br><br>Database<br>MySQL • PostgreSQL<br><br>Tools<br>Git • GitHub • VS Code • Postman<br><br>Deployment & Cloud<br>Microsoft Azure • Linux • Domain & Subdomain Configuration • Production Deployment</p>
+- 🐍 Developing backend applications using **Python, Django & Django REST Framework**
+- ⚛️ Building responsive frontend applications using **React.js & JavaScript**
+- 🔗 Designing and integrating **REST APIs** for frontend-backend communication
+- 🗄️ Working with **SQL databases**, including MySQL and PostgreSQL
+- ☁️ Working with **Microsoft Azure** and cloud-based application deployment
+- 🚀 Experience with **production deployment, domains and subdomains**
+- 🔄 Building API-driven business workflows and third-party API integrations
+- 🛠️ Using Git and GitHub for version control and development workflows
+- 📮 Using Postman for API development, testing and debugging
+- 🎯 Continuously improving application architecture, performance and maintainability
 
-###
+---
 
-<h5 data-importer="text" align="left">🐍 Python<br><br>🌐 Django & Django REST Framework<br><br>⚛️ React.js<br><br>🗄️ SQL & MySQL<br><br>☁️ Microsoft Azure<br><br>🔗 REST APIs<br><br>🛠️ Git & GitHub<br><br>📮 Postman</h5>
+## 🛠️ Tech Stack
 
-###
+### 💻 Languages
 
-<div data-importer="techs" align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="40" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-</div>
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45" alt="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" height="45" alt="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45" alt="CSS3" />
+</p>
 
-###
+### ⚙️ Backend
 
-<div data-importer="socials" align="left">
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-</div>
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="45" height="45" alt="Django" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/djangorestframework/djangorestframework-original.svg" width="45" height="45" alt="Django REST Framework" />
+</p>
 
-###
+### ⚛️ Frontend
 
-<img data-importer="snake" src="https://raw.githubusercontent.com/Jebarlin7890/Jebarlin7890/snake-output/snake.svg" alt="Snake animation" />
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45" height="45" alt="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="45" height="45" alt="Bootstrap" />
+</p>
 
-###
+### 🗄️ Database
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="45" height="45" alt="MySQL" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45" alt="PostgreSQL" />
+</p>
+
+### ☁️ Cloud & Deployment
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="45" height="45" alt="Microsoft Azure" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" height="45" alt="Linux" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45" alt="Docker" />
+</p>
+
+### 🧰 Tools
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" alt="GitHub" />
+</p>
+
+---
+
+## 🚀 What I Work On
+
+```text
+Full Stack Web Applications
+        ↓
+React.js Frontend
+        ↓
+REST API Layer
+        ↓
+Django / Django REST Framework
+        ↓
+SQL Database
+        ↓
+Cloud Deployment
+        ↓
+Microsoft Azure
