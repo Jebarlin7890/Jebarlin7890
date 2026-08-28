@@ -125,15 +125,52 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable, and 
 ### 🧰 Tools
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50" alt="Git" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50" alt="GitHub" />
+  <a href="https://git-scm.com/" target="_blank">
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      width="55"
+      height="55"
+      alt="Git"
+    />
+  </a>
+
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://github.com/" target="_blank">
+    <img
+      src="https://skillicons.dev/icons?i=github"
+      width="55"
+      height="55"
+      alt="GitHub"
+    />
+  </a>
+
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://code.visualstudio.com/" target="_blank">
+    <img
+      src="https://skillicons.dev/icons?i=vscode"
+      width="55"
+      height="55"
+      alt="VS Code"
+    />
+  </a>
+
+  &nbsp;&nbsp;&nbsp;
+
+  <a href="https://www.postman.com/" target="_blank">
+    <img
+      src="https://skillicons.dev/icons?i=postman"
+      width="55"
+      height="55"
+      alt="Postman"
+    />
+  </a>
 </p>
 
-<p>
+<p align="left">
   <strong>Git • GitHub • VS Code • Postman</strong>
 </p>
-
 ---
 
 ## 🚀 What I Do
