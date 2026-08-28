@@ -18,11 +18,14 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Python Full Stack Developer** focused on developing modern, scalable and API-driven web applications.
+> [!TIP]
+> I'm a **Python Full Stack Developer** focused on developing modern, scalable and API-driven web applications — turning business requirements into clean, production-ready systems.
 
 <table>
 <tr>
 <td width="55%" valign="top">
+
+**🎯 What I Bring**
 
 - 🐍 Building backend applications with **Python, Django and Django REST Framework**
 - ⚛️ Developing interactive frontend applications with **React.js and JavaScript**
@@ -39,6 +42,8 @@ I'm a **Python Full Stack Developer** focused on developing modern, scalable and
 
 </td>
 <td width="45%" valign="top">
+
+**📋 Quick Profile**
 
 ```yaml
 name: Jebarlin
@@ -142,8 +147,10 @@ principles:
 
 ## 🚀 What I Do
 
+<div align="center">
+
 | Area | Technologies |
-|---|---|
+|:---:|:---:|
 | 🐍 Backend Development | Python, Django, Django REST Framework |
 | 🔗 API Development | REST APIs, Authentication, API Integration |
 | ⚡ Background Processing | Celery, Redis |
@@ -151,6 +158,8 @@ principles:
 | 🗄️ Database | SQL, MySQL, PostgreSQL, Django ORM |
 | ☁️ Cloud & Deployment | Microsoft Azure, Linux, Docker |
 | 🛠️ Development Tools | Git, GitHub, VS Code, Postman |
+
+</div>
 
 ---
 
@@ -176,35 +185,27 @@ I develop **API-driven backend systems** using Django and Django REST Framework,
 
 I use **Celery with Redis** to handle operations that should run independently from the main web request.
 
-```text
-                    Django Application
-                           │
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │    Celery    │
-                    │     Tasks    │
-                    └──────┬───────┘
-                           │
-                           │ Task Queue
-                           ▼
-                    ┌──────────────┐
-                    │    Redis     │
-                    │ Message Broker│
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │ Celery Worker│
-                    │              │
-                    │ Background   │
-                    │ Processing   │
-                    └──────┬───────┘
-                           │
-              ┌────────────┼────────────┐
-              ▼            ▼            ▼
-         External API   Email/Task   Data Processing
+<div align="center">
+
+```mermaid
+flowchart TD
+    A["🌐 Django Application"] -->|Task Queue| B["🌿 Celery Tasks"]
+    B --> C["🔴 Redis<br/>Message Broker"]
+    C --> D["⚙️ Celery Worker<br/>Background Processing"]
+    D --> E["📡 External API"]
+    D --> F["✉️ Email / Task"]
+    D --> G["📊 Data Processing"]
+
+    style A fill:#0e75b6,color:#fff,stroke:#092e57,stroke-width:2px
+    style B fill:#37814A,color:#fff,stroke:#1f4d2c,stroke-width:2px
+    style C fill:#DC382D,color:#fff,stroke:#8a1f18,stroke-width:2px
+    style D fill:#8b5cf6,color:#fff,stroke:#5b3a9e,stroke-width:2px
+    style E fill:#f59e0b,color:#1f2937,stroke:#b96f00,stroke-width:2px
+    style F fill:#f59e0b,color:#1f2937,stroke:#b96f00,stroke-width:2px
+    style G fill:#f59e0b,color:#1f2937,stroke:#b96f00,stroke-width:2px
 ```
+
+</div>
 
 ---
 
@@ -212,48 +213,25 @@ I use **Celery with Redis** to handle operations that should run independently f
 
 My full-stack applications typically follow a separated frontend, API backend, asynchronous processing and database architecture.
 
-```text
-                         ┌─────────────────────────┐
-                         │       React.js          │
-                         │      Frontend UI        │
-                         │                         │
-                         │ JavaScript / HTML / CSS │
-                         └────────────┬────────────┘
-                                      │
-                                      │ HTTPS
-                                      │ REST API
-                                      ▼
-                         ┌─────────────────────────┐
-                         │   Django REST Framework │
-                         │                         │
-                         │     Python Backend      │
-                         │                         │
-                         │ Authentication          │
-                         │ Business Logic          │
-                         │ API Endpoints           │
-                         └────────────┬────────────┘
-                                      │
-                       ┌──────────────┼──────────────┐
-                       │              │              │
-                       │              │              │
-                       ▼              ▼              ▼
-              ┌──────────────┐ ┌────────────┐ ┌─────────────────┐
-              │     SQL      │ │   Redis    │ │ Third-Party APIs│
-              │   Database   │ │            │ │                 │
-              │              │ │ Task Broker│ │ External        │
-              │ MySQL /      │ │ & Cache    │ │ Services        │
-              │ PostgreSQL   │ └─────┬──────┘ └─────────────────┘
-              └──────────────┘       │
-                                     │
-                                     ▼
-                              ┌──────────────┐
-                              │    Celery    │
-                              │    Worker    │
-                              │              │
-                              │ Background   │
-                              │    Tasks      │
-                              └──────────────┘
+<div align="center">
+
+```mermaid
+flowchart TD
+    A["⚛️ React.js Frontend<br/>JavaScript / HTML / CSS"] -->|"HTTPS / REST API"| B["🐍 Django REST Framework<br/>Auth · Business Logic · Endpoints"]
+    B --> C["🗄️ SQL Database<br/>MySQL / PostgreSQL"]
+    B --> D["🔴 Redis<br/>Broker & Cache"]
+    B --> E["🌐 Third-Party APIs<br/>External Services"]
+    D --> F["⚙️ Celery Worker<br/>Background Tasks"]
+
+    style A fill:#61DAFB,color:#0a2540,stroke:#0e75b6,stroke-width:2px
+    style B fill:#092E20,color:#fff,stroke:#0e75b6,stroke-width:2px
+    style C fill:#4169E1,color:#fff,stroke:#20408a,stroke-width:2px
+    style D fill:#DC382D,color:#fff,stroke:#8a1f18,stroke-width:2px
+    style E fill:#8b5cf6,color:#fff,stroke:#5b3a9e,stroke-width:2px
+    style F fill:#37814A,color:#fff,stroke:#1f4d2c,stroke-width:2px
 ```
+
+</div>
 
 ---
 
@@ -261,27 +239,55 @@ My full-stack applications typically follow a separated frontend, API backend, a
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Jebarlin7890&theme=tokyonight&hide_border=true&stroke=0e75b6&ring=0e75b6&fire=8b5cf6&currStreakLabel=0e75b6" width="48%" alt="GitHub Streak"/>
-<img src="https://github-readme-stats.vercel.app/api?username=Jebarlin7890&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=0e75b6&icon_color=0e75b6" width="48%" alt="Jebarlin7890's GitHub Stats"/>
+<table>
+<tr>
+<td align="center" width="50%">
+
+**🔥 Streak**
+
+<img src="https://streak-stats.demolab.com/?user=Jebarlin7890&theme=tokyonight&hide_border=true&stroke=0e75b6&ring=0e75b6&fire=8b5cf6&currStreakLabel=0e75b6" width="100%" alt="GitHub Streak"/>
+
+</td>
+<td align="center" width="50%">
+
+**📊 Overview**
+
+<img src="https://github-readme-stats.vercel.app/api?username=Jebarlin7890&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=0e75b6&icon_color=0e75b6" width="100%" alt="Jebarlin7890's GitHub Stats"/>
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+**💻 Top Languages**
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jebarlin7890&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=0e75b6" width="100%" alt="Top Languages"/>
+
+</td>
+<td align="center" width="50%">
+
+**📈 Activity**
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jebarlin7890&theme=tokyo-night&hide_border=true&color=0e75b6&line=0e75b6" width="100%" alt="Contribution Graph"/>
+
+</td>
+</tr>
+</table>
+
+**Quick Stats**
+
+<a href="https://github.com/Jebarlin7890?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jebarlin7890&label=Public%20Repos&query=public_repos&color=0e75b6&style=for-the-badge&logo=github"/></a>
+<a href="https://github.com/Jebarlin7890?tab=followers"><img src="https://img.shields.io/github/followers/Jebarlin7890?label=Followers&style=for-the-badge&color=0e75b6&logo=github"/></a>
+<a href="https://github.com/Jebarlin7890?tab=repositories"><img src="https://img.shields.io/github/stars/Jebarlin7890?label=Total%20Stars&style=for-the-badge&color=0e75b6&logo=github"/></a>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jebarlin7890&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=0e75b6" width="48%" alt="Top Languages"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jebarlin7890&theme=tokyo-night&hide_border=true&color=0e75b6&line=0e75b6" width="48%" alt="Contribution Graph"/>
+<a href="https://github.com/Jebarlin7890"><img src="https://img.shields.io/badge/View%20Live%20Profile-0e75b6?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </div>
 
-<div align="center">
-
-**Quick Stats**
-&nbsp;
-<a href="https://github.com/Jebarlin7890?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jebarlin7890&label=Public%20Repos&query=public_repos&color=0e75b6&style=flat-square&logo=github"/></a>
-<a href="https://github.com/Jebarlin7890?tab=followers"><img src="https://img.shields.io/github/followers/Jebarlin7890?label=Followers&style=flat-square&color=0e75b6&logo=github"/></a>
-<a href="https://github.com/Jebarlin7890?tab=repositories"><img src="https://img.shields.io/github/stars/Jebarlin7890?label=Total%20Stars&style=flat-square&color=0e75b6&logo=github"/></a>
-
-</div>
-
-> **Note:** these cards load live from `github-readme-stats` / `streak-stats.demolab.com`, so they depend on GitHub's API and can occasionally rate-limit or show a broken icon for a minute — reloading the page usually fixes it. The **Quick Stats** badges above are shields.io badges and render reliably even when the graphic cards don't. For guaranteed uptime, deploy your own free instance from the ["Deploy to Vercel"](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own) button on the `github-readme-stats` repo and swap the URLs.
+> [!NOTE]
+> The four cards above are generated live by `github-readme-stats` / `streak-stats.demolab.com`, so they depend on GitHub's API and can briefly rate-limit or show a broken icon — reloading the page usually fixes it. The **Quick Stats** badges are shields.io badges and render reliably regardless. For guaranteed uptime, deploy your own free instance from the ["Deploy on your own"](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own) button on the `github-readme-stats` repo and swap in your instance's URL.
 
 ---
 
