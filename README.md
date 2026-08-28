@@ -5,6 +5,10 @@
 </h3>
 
 <p align="center">
+  Building scalable web applications, API-driven systems and cloud-ready solutions.
+</p>
+
+<p align="center">
   <img
     src="https://komarev.com/ghpvc/?username=Jebarlin7890&label=Profile%20Views&color=0e75b6&style=flat"
     alt="Profile Views"
@@ -18,6 +22,7 @@
       alt="GitHub Followers"
     />
   </a>
+  &nbsp;
   <a href="https://github.com/Jebarlin7890">
     <img
       src="https://img.shields.io/github/stars/Jebarlin7890?label=Stars&style=flat"
@@ -30,33 +35,54 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Python Full Stack Developer** focused on building modern, scalable, and API-driven web applications.
+I'm a **Python Full Stack Developer** focused on building modern, scalable and API-driven web applications.
 
-- 🐍 Developing backend applications using **Python, Django & Django REST Framework**
+- 🐍 Developing backend systems using **Python, Django & Django REST Framework**
 - ⚛️ Building frontend applications using **React.js & JavaScript**
 - 🔗 Designing and integrating **REST APIs**
+- ⚡ Implementing background and asynchronous tasks using **Celery**
+- 🚀 Using **Redis** for caching, message brokering and task processing
 - 🗄️ Working with **SQL, MySQL and PostgreSQL**
 - ☁️ Working with **Microsoft Azure** and cloud-based deployments
-- 🚀 Working with production environments, domains and subdomains
-- 🔄 Building API-driven business workflows and third-party API integrations
-- 🛠️ Using **Git & GitHub** for version control and collaboration
-- 📮 Using **Postman** for API testing and debugging
-- 🎯 Continuously improving application architecture, performance and maintainability
+- 🔄 Integrating third-party APIs and business workflows
+- 🧪 Testing and debugging APIs using **Postman**
+- 🛠️ Using **Git & GitHub** for version control and development workflows
+- 🎯 Focused on clean architecture, performance and maintainable code
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### 💻 Languages
+## 💻 Languages
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50" alt="Python" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    width="50"
+    height="50"
+    alt="Python"
+  />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" alt="JavaScript" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    width="50"
+    height="50"
+    alt="JavaScript"
+  />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50" alt="HTML5" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    width="50"
+    height="50"
+    alt="HTML5"
+  />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" alt="CSS3" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    width="50"
+    height="50"
+    alt="CSS3"
+  />
 </p>
 
 <p>
@@ -65,25 +91,77 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable, and 
 
 ---
 
-### ⚙️ Backend
+## ⚙️ Backend
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=django" width="55" height="55" alt="Django"
+  <img
+    src="https://skillicons.dev/icons?i=django"
+    width="55"
+    height="55"
+    alt="Django"
+  />
+  &nbsp;&nbsp;
+  <img
+    src="https://skillicons.dev/icons?i=redis"
+    width="55"
+    height="55"
+    alt="Redis"
   />
 </p>
 
 <p>
-  <strong>Django • Django REST Framework • REST APIs • API Integration</strong>
+  <strong>
+    Django • Django REST Framework • REST APIs • Redis • Celery
+  </strong>
+</p>
+
+<p>
+  <strong>
+    Authentication • Authorization • API Integration • Background Tasks • Caching
+  </strong>
 </p>
 
 ---
 
-### ⚛️ Frontend
+## ⚡ Asynchronous Processing
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" height="50" alt="React" />
+  <img
+    src="https://skillicons.dev/icons?i=redis"
+    width="55"
+    height="55"
+    alt="Redis"
+  />
+</p>
+
+<p>
+  <strong>Celery • Redis • Background Jobs • Task Queues • Scheduled Tasks</strong>
+</p>
+
+- ⚡ Background task processing with **Celery**
+- 🚀 Redis-based task/message handling
+- ⏱️ Scheduled and asynchronous jobs
+- 📦 Processing long-running operations outside the request cycle
+- 🔄 Reliable background workflow execution
+
+---
+
+## ⚛️ Frontend
+
+<p align="left">
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    width="50"
+    height="50"
+    alt="React"
+  />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="50" height="50" alt="Bootstrap" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+    width="50"
+    height="50"
+    alt="Bootstrap"
+  />
 </p>
 
 <p>
@@ -92,141 +170,135 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable, and 
 
 ---
 
-### 🗄️ Database
+## 🗄️ Database
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50" height="50" alt="MySQL" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+    width="50"
+    height="50"
+    alt="MySQL"
+  />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50" height="50" alt="PostgreSQL" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+    width="50"
+    height="50"
+    alt="PostgreSQL"
+  />
 </p>
 
 <p>
-  <strong>SQL • MySQL • PostgreSQL</strong>
+  <strong>SQL • MySQL • PostgreSQL • Django ORM</strong>
 </p>
 
 ---
 
-### ☁️ Cloud & Deployment
+## ☁️ Cloud & Deployment
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="50" height="50" alt="Microsoft Azure" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+    width="50"
+    height="50"
+    alt="Microsoft Azure"
+  />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50" alt="Linux" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+    width="50"
+    height="50"
+    alt="Linux"
+  />
   &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" height="50" alt="Docker" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+    width="50"
+    height="50"
+    alt="Docker"
+  />
 </p>
 
 <p>
-  <strong>Microsoft Azure • Linux • Docker • Production Deployment</strong>
+  <strong>
+    Microsoft Azure • Linux • Docker • Production Deployment
+  </strong>
 </p>
 
 ---
 
-### 🧰 Tools
+## 🧰 Tools
 
 <p align="left">
-  <a href="https://git-scm.com/" target="_blank">
-    <img
-      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-      width="55"
-      height="55"
-      alt="Git"
-    />
-  </a>
-
-  &nbsp;&nbsp;&nbsp;
-
-  <a href="https://github.com/" target="_blank">
-    <img
-      src="https://skillicons.dev/icons?i=github"
-      width="55"
-      height="55"
-      alt="GitHub"
-    />
-  </a>
-
-  &nbsp;&nbsp;&nbsp;
-
-  <a href="https://code.visualstudio.com/" target="_blank">
-    <img
-      src="https://skillicons.dev/icons?i=vscode"
-      width="55"
-      height="55"
-      alt="VS Code"
-    />
-  </a>
-
-  &nbsp;&nbsp;&nbsp;
-
-  <a href="https://www.postman.com/" target="_blank">
-    <img
-      src="https://skillicons.dev/icons?i=postman"
-      width="55"
-      height="55"
-      alt="Postman"
-    />
-  </a>
+  <img
+    src="https://skillicons.dev/icons?i=git,github,vscode,postman"
+    height="55"
+    alt="Development Tools"
+  />
 </p>
 
-<p align="left">
+<p>
   <strong>Git • GitHub • VS Code • Postman</strong>
 </p>
+
 ---
 
-## 🚀 What I Do
+# 🚀 What I Do
 
 | Area | Technologies |
 |---|---|
 | 🐍 Backend Development | Python, Django, Django REST Framework |
-| ⚛️ Frontend Development | React.js, JavaScript, HTML5, CSS3 |
 | 🔗 API Development | REST APIs, Authentication, API Integration |
-| 🗄️ Database | SQL, MySQL, PostgreSQL |
+| ⚡ Async Processing | Celery, Redis, Background Tasks |
+| ⚛️ Frontend Development | React.js, JavaScript, HTML5, CSS3 |
+| 🗄️ Database | SQL, MySQL, PostgreSQL, Django ORM |
 | ☁️ Cloud & Deployment | Microsoft Azure, Linux, Docker |
 | 🛠️ Development Tools | Git, GitHub, VS Code, Postman |
 
 ---
 
-## 🔌 API & Backend Development
+# 🔌 API & Backend Development
 
-I build **API-driven applications** using Django REST Framework, focusing on clean backend architecture and reliable communication between frontend and backend.
+I build **API-driven backend systems** using Django and Django REST Framework, with a focus on scalable architecture, reliable API communication and maintainable business logic.
+
+### Backend Capabilities
 
 - 🔐 Authentication & authorization
 - 🔗 REST API development
-- 📡 Frontend ↔ Backend integration
+- 📡 Frontend ↔ Backend communication
 - 📦 Third-party API integration
 - 🧪 API testing with Postman
 - 🗄️ Database-driven applications
 - ⚙️ Business workflow implementation
+- 📄 Serialization and validation
+- 🔄 API-based service integration
 - 🚀 Production API deployment
 
 ---
 
-## 💻 Full Stack Architecture
+# ⚡ Background Processing
 
-My typical application architecture:
+For operations that should not block the main web request, I work with **Celery and Redis**.
 
 ```text
-                    ┌──────────────────────┐
-                    │      React.js        │
-                    │    Frontend UI       │
-                    └──────────┬───────────┘
-                               │
-                               │ REST API
-                               ▼
-                    ┌──────────────────────┐
-                    │ Django REST Framework│
-                    │    Python Backend    │
-                    └──────────┬───────────┘
-                               │
-                               │ ORM / SQL
-                               ▼
-                    ┌──────────────────────┐
-                    │     SQL Database     │
-                    │ MySQL / PostgreSQL   │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │  Microsoft Azure     │
-                    │ Cloud / Deployment   │
-                    └──────────────────────┘
+                    Django Application
+                           │
+                           │
+                           ▼
+                    ┌──────────────┐
+                    │    Celery    │
+                    │ Task Manager  │
+                    └───────┬──────┘
+                            │
+                            ▼
+                    ┌──────────────┐
+                    │    Redis     │
+                    │ Message Broker│
+                    └───────┬──────┘
+                            │
+                            ▼
+                    ┌──────────────┐
+                    │ Celery Worker│
+                    │ Background   │
+                    │ Task Process  │
+                    └──────────────┘
