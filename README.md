@@ -43,8 +43,12 @@ I'm a **Python Full Stack Developer** focused on building modern, scalable, and 
 ### ⚙️ Backend
 
 <p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="45" height="45" alt="Django" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/djangorestframework/djangorestframework-original.svg" width="45" height="45" alt="Django REST Framework" />
+</p>
+
+<p align="left">
+  <strong>Python • Django • Django REST Framework • REST APIs</strong>
 </p>
 
 ### ⚛️ Frontend
