@@ -241,53 +241,38 @@ flowchart TD
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="25%">
 
-**🔥 Streak**
-
-<img src="https://streak-stats.demolab.com/?user=Jebarlin7890&theme=tokyonight&hide_border=true&stroke=0e75b6&ring=0e75b6&fire=8b5cf6&currStreakLabel=0e75b6" width="100%" alt="GitHub Streak"/>
+<img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jebarlin7890&label=Public%20Repos&query=public_repos&color=0e75b6&style=for-the-badge&logo=github&logoColor=white"/>
 
 </td>
-<td align="center" width="50%">
+<td align="center" width="25%">
 
-**📊 Overview**
-
-<img src="https://github-readme-stats.vercel.app/api?username=Jebarlin7890&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&title_color=0e75b6&icon_color=0e75b6" width="100%" alt="Jebarlin7890's GitHub Stats"/>
+<img src="https://img.shields.io/github/followers/Jebarlin7890?label=Followers&style=for-the-badge&color=8b5cf6&logo=github&logoColor=white"/>
 
 </td>
-</tr>
-<tr>
-<td align="center" width="50%">
+<td align="center" width="25%">
 
-**💻 Top Languages**
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jebarlin7890&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&title_color=0e75b6" width="100%" alt="Top Languages"/>
+<img src="https://img.shields.io/github/stars/Jebarlin7890?label=Total%20Stars&style=for-the-badge&color=f59e0b&logo=github&logoColor=white"/>
 
 </td>
-<td align="center" width="50%">
+<td align="center" width="25%">
 
-**📈 Activity**
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jebarlin7890&theme=tokyo-night&hide_border=true&color=0e75b6&line=0e75b6" width="100%" alt="Contribution Graph"/>
+<img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jebarlin7890&label=Following&query=following&color=37814A&style=for-the-badge&logo=github&logoColor=white"/>
 
 </td>
 </tr>
 </table>
 
-**Quick Stats**
+<br/>
 
-<a href="https://github.com/Jebarlin7890?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Jebarlin7890&label=Public%20Repos&query=public_repos&color=0e75b6&style=for-the-badge&logo=github"/></a>
-<a href="https://github.com/Jebarlin7890?tab=followers"><img src="https://img.shields.io/github/followers/Jebarlin7890?label=Followers&style=for-the-badge&color=0e75b6&logo=github"/></a>
-<a href="https://github.com/Jebarlin7890?tab=repositories"><img src="https://img.shields.io/github/stars/Jebarlin7890?label=Total%20Stars&style=for-the-badge&color=0e75b6&logo=github"/></a>
-
-<br/><br/>
-
-<a href="https://github.com/Jebarlin7890"><img src="https://img.shields.io/badge/View%20Live%20Profile-0e75b6?style=for-the-badge&logo=github&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=Jebarlin7890&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
+<a href="https://github.com/Jebarlin7890"><img src="https://img.shields.io/badge/View%20Live%20Profile-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </div>
 
 > [!NOTE]
-> The four cards above are generated live by `github-readme-stats` / `streak-stats.demolab.com`, so they depend on GitHub's API and can briefly rate-limit or show a broken icon — reloading the page usually fixes it. The **Quick Stats** badges are shields.io badges and render reliably regardless. For guaranteed uptime, deploy your own free instance from the ["Deploy on your own"](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own) button on the `github-readme-stats` repo and swap in your instance's URL.
+> This dashboard uses shields.io badges pulling live data straight from the GitHub API, so it always renders — no dependency on third-party SVG-card generators (`github-readme-stats`, `streak-stats`, etc.), which were failing to load consistently. If you'd still like the fuller graphic stat cards (streak ring, top-languages chart, contribution graph) added back in later, the safest way is self-hosting your own instance of [`github-readme-stats`](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own) on Vercel — that removes the shared-server rate-limiting that's been causing the broken icons.
 
 ---
 
