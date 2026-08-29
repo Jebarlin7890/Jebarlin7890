@@ -277,11 +277,6 @@ flowchart TD
 
 </div>
 
-> [!NOTE]
-> This dashboard uses shields.io badges pulling live data straight from the GitHub API, so it always renders — no dependency on third-party SVG-card generators (`github-readme-stats`, `streak-stats`, etc.), which were failing to load consistently. If you'd still like the fuller graphic stat cards (streak ring, top-languages chart, contribution graph) added back in later, the safest way is self-hosting your own instance of [`github-readme-stats`](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own) on Vercel — that removes the shared-server rate-limiting that's been causing the broken icons.
-
----
-
 <div align="center">
 
 ## 📫 Let's Connect
